@@ -20,7 +20,7 @@ in flake-utils.lib.eachSystem systems (system:
     flakeOutputs = { pkgs, ... }@outputs:
       outputs // (with pkgs; {
         packages = pkgs;
-        devShell = mkShell { pkgs = [ pkgSets.vico pkgSets.vic ]; };
+        devShell = mkShell { pkgs = [ pkgSets.vico pkgSets.echo pkgSets.bash pkgSets.nix ]; };
       });
 
   })

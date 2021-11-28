@@ -14,33 +14,33 @@
       vico = [ nixFlakes direnv home-manager ];
 
       # Home level packages
-      vic = [
-        # bottom
-        # # VimMotionApp
-        # xsv
-        # htop
-        # gitui
-        # xh # fetch things
-        # bat # better cat
-        # # browsh # Firefox on shell
-        # exa # alias ls
-        # fd # alias find
-        # fish # thanks for all the fish
-        # fzf # ctrl+r history
-        # # git-lfs # large binary files in git
-        # jq # query json
-        # ripgrep # grep faster
-        # # ripgrep-all # rg faster grep on many file types
-        # tig # terminal git ui
-        # # victor-mono # fontz ligatures
-        # # tor-browser # darkz web
-        # # firefox-developer # firefox with dev nicities
-        # # iterm2 # terminal
-        # # flux # late programming
-        # # pock # make touchbar useful
-        # # keybase # secure comms
-        # git
-        # neovim
+      echo = [
+        bottom
+        # VimMotionApp
+        xsv
+        htop
+        gitui
+        xh # fetch things
+        bat # better cat
+        # browsh # Firefox on shell
+        exa # alias ls
+        fd # alias find
+        fish # thanks for all the fish
+        fzf # ctrl+r history
+        # git-lfs # large binary files in git
+        jq # query json
+        ripgrep # grep faster
+        # ripgrep-all # rg faster grep on many file types
+        tig # terminal git ui
+        # victor-mono # fontz ligatures
+        # tor-browser # darkz web
+        # firefox-developer # firefox with dev nicities
+        # iterm2 # terminal
+        # flux # late programming
+        # pock # make touchbar useful
+        # keybase # secure comms
+        git
+        neovim
       ];
 
       bash = [ shfmt shellcheck ];

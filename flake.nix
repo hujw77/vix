@@ -6,7 +6,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
 
-    mk-darwin-system.url = "path:../dotfiles";
+    mk-darwin-system.url = "github:hujw77/dotfiles";
     mk-darwin-system.inputs.nixpkgs.follows = "nixpkgs";
   };
 

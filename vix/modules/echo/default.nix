@@ -1,7 +1,7 @@
 { config, pkgs, lib, vix, vix-lib, home-manager, nix-darwin, nixpkgs, ...
 }@args:
 let
-  USER = "vic";
+  USER = "echo";
   HOME = "/v";
   DOTS = lib.mkOutOfStoreSymlink "/hk/dots";
 in {
