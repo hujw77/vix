@@ -7,6 +7,9 @@
 
   nivSources = import "${vix}/nix/sources.nix";
 
+  vixLink = path: lib.mkOutOfStoreSymlink "/hk/vix/${path}";
+  hdiutil = lib.mkOutOfStoreSymlink "/usr/bin/hdiutil";
+
   nivApp = name:
     let
       src = nivSources."${name}App";

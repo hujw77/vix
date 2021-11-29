@@ -14,5 +14,4 @@
 
   services.nix-daemon.enable = true;
   services.lorri.enable = true;
-
 }

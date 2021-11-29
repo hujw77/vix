@@ -2,7 +2,7 @@
 }@args:
 let
   USER = "echo";
-  HOME = "/v";
+  HOME = "/Users/echo";
   DOTS = lib.mkOutOfStoreSymlink "/hk/dots";
 in {
   _module.args = { inherit HOME USER DOTS; };
@@ -12,6 +12,7 @@ in {
   users.users.${USER}.home = HOME;
 
   home-manager.users.${USER} = {
+    programs.fish.enable = true;
     programs.nix-index.enableFishIntegration = true;
     home.packages = config.pkgSets.${USER};
 

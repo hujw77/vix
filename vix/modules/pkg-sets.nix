@@ -11,12 +11,16 @@
 
     pkgSets = with pkgs; {
       # System level packages
-      vico = [ nixFlakes direnv home-manager ];
+      vico = [
+        nixFlakes
+        direnv
+        home-manager
+      ];
 
       # Home level packages
       echo = [
+        VimMotionApp
         bottom
-        # VimMotionApp
         xsv
         htop
         gitui
@@ -25,10 +29,8 @@
         # browsh # Firefox on shell
         exa # alias ls
         fd # alias find
-        fish # thanks for all the fish
         fzf # ctrl+r history
         # git-lfs # large binary files in git
-        jq # query json
         ripgrep # grep faster
         # ripgrep-all # rg faster grep on many file types
         tig # terminal git ui
@@ -39,18 +41,20 @@
         # flux # late programming
         # pock # make touchbar useful
         # keybase # secure comms
-        git
-        neovim
-      ];
 
-      bash = [ shfmt shellcheck ];
+        shfmt
+        shellcheck
 
-      nix = [
         niv # manage nix dependencies
         nixfmt # fmt nix sources
         nox # quick installer for nix
         nix-prefetch
+
+        git
+        jq # query json
+        neovim
       ];
+
     };
 
     nixpkgs.overlays = [

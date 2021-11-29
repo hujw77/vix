@@ -47,16 +47,16 @@
         "nur": "nur"
       },
       "locked": {
-        "lastModified": 1638102295,
-        "narHash": "sha256-q7cB5rtclLXh2C1e6JGCLPq/vXqGf00x5roX1YqbFV0=",
+        "lastModified": 1638152366,
+        "narHash": "sha256-LhCPO9EIPyZLqpS6brQZypLgtkgJ1JAPgj7DqWyaA7I=",
         "owner": "hujw77",
-        "repo": "dotfiles",
-        "rev": "2163e2aab66d28eb73bad02933e811d244e61a2c",
+        "repo": "mk-darwin-system",
+        "rev": "29e1f34adbec18c2e14c54383b658c39dae7715b",
         "type": "github"
       },
       "original": {
         "owner": "hujw77",
-        "repo": "dotfiles",
+        "repo": "mk-darwin-system",
         "type": "github"
       }
     },

@@ -9,7 +9,7 @@
 
       # xbarApp = vix-lib.nivApp "xbar";
 
-      # VimMotionApp = vix-lib.nivApp "VimMotion";
+      VimMotionApp = vix-lib.nivApp "VimMotion";
 
       # HamerspoonApp = vix-lib.nivApp "Hamerspoon";
 
