@@ -47,8 +47,11 @@
         "nur": "nur"
       },
       "locked": {
-        "lastModified": 1638600059,
+        "lastModified": 1638604178,
         "narHash": "sha256-ThhmzYBeesrgXBzN9kVUfAxEh1CDvCfGJo4wMsRCoN0=",
+        "ref": "main",
+        "rev": "135f0efb03ff9ca8dc32bcf7eb51a592a3f37996",
+        "revCount": 6,
         "type": "git",
         "url": "file:///Users/echo/workspace/tools/mk-darwin-system"
       },
