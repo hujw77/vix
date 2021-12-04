@@ -47,17 +47,14 @@
         "nur": "nur"
       },
       "locked": {
-        "lastModified": 1638152366,
-        "narHash": "sha256-LhCPO9EIPyZLqpS6brQZypLgtkgJ1JAPgj7DqWyaA7I=",
-        "owner": "hujw77",
-        "repo": "mk-darwin-system",
-        "rev": "29e1f34adbec18c2e14c54383b658c39dae7715b",
-        "type": "github"
+        "lastModified": 1638600059,
+        "narHash": "sha256-ThhmzYBeesrgXBzN9kVUfAxEh1CDvCfGJo4wMsRCoN0=",
+        "type": "git",
+        "url": "file:///Users/echo/workspace/tools/mk-darwin-system"
       },
       "original": {
-        "owner": "hujw77",
-        "repo": "mk-darwin-system",
-        "type": "github"
+        "type": "git",
+        "url": "file:///Users/echo/workspace/tools/mk-darwin-system"
       }
     },
     "nix-darwin": {
@@ -84,16 +81,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1638036523,
-        "narHash": "sha256-ZL6gogsuBmhBvIro+YwRKrypYhwVPCOOO7FmhOV/xyE=",
+        "lastModified": 1638239011,
+        "narHash": "sha256-AjhmbT4UBlJWqxY0ea8a6GU2C2HdKUREkG43oRr3TZg=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "9c191ebcdfe917043195c54ab6ae8e934434fe7b",
+        "rev": "a7ecde854aee5c4c7cd6177f54a99d2c1ff28a31",
         "type": "github"
       },
       "original": {
         "owner": "nixos",
-        "ref": "nixpkgs-unstable",
+        "ref": "21.11",
         "repo": "nixpkgs",
         "type": "github"
       }
