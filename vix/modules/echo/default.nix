@@ -3,7 +3,7 @@ let
   inherit (vix.inputs) mk-darwin-system nixpkgs;
   inherit (mk-darwin-system.inputs) home-manager nix-darwin;
   DOTS = lib.mds.mkOutOfStoreSymlink "/hk/dots";
-  HOME = "/Users/echo";
+  HOME = "/home";
   USER = "echo";
 in {
   _module.args = { inherit HOME USER DOTS; };
