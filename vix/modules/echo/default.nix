@@ -8,7 +8,7 @@ let
 in {
   _module.args = { inherit HOME USER DOTS; };
 
-  imports = [ ./git ];
+  imports = [ ./git ./fish ];
 
   users.users.${USER}.home = HOME;
 

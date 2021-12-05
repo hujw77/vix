@@ -26,6 +26,8 @@
         gitui
         xh # fetch things
         bat # better cat
+        jump
+        rbenv
         # browsh # Firefox on shell
         exa # alias ls
         fd # alias find
@@ -51,6 +53,7 @@
         nix-prefetch
 
         git
+        gh
         jq # query json
         neovim
       ];

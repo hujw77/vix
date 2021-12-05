@@ -5,5 +5,12 @@
         "url": "https://github.com/dwarvesf/VimMotionApp/releases/download/v1.2.3/VimMotion.1.2.3.dmg",
         "url_template": "https://github.com/dwarvesf/VimMotionApp/releases/download/v<version>/VimMotion.<version>.dmg",
         "version": "1.2.3"
+    },
+    "fish-fzf.fish": {
+        "sha256": "1xzh5jwgilnk5rh7wywmzw1s084b2pilh0hvkfm5kyl37hmh0y3n",
+        "type": "tarball",
+        "url": "https://github.com/PatrickF1/fzf.fish/archive/refs/tags/v7.4.tar.gz",
+        "url_template": "https://github.com/PatrickF1/fzf.fish/archive/refs/tags/v<version>.tar.gz",
+        "version": "7.4"
     }
 }
