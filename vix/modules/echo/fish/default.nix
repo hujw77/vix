@@ -9,8 +9,6 @@
       enable = true;
 
       shellAliases = {
-        vi = "nvim";
-        vim = "nvim";
         e = "emacsclient -t";
 
         l = "exa -l";
@@ -23,7 +21,6 @@
       shellAbbrs = {
         ls = "exa";
         top = "btm";
-        cat = "bat";
         grep = "rg";
         find = "fd";
         nr = "nix run";
@@ -208,9 +205,9 @@
         hc.description = "alias hc=gh pr view --web";
         hc.body = "gh pr view --web $argv";
 
-        icloud.wraps = "cd\ \~/Library/Mobile\\\ Documents/com\~apple\~CloudDocs/";
-        icloud.description = "alias\ icloud=cd\ \~/Library/Mobile\\\ Documents/com\~apple\~CloudDocs/";
-        icloud.body = "cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/ $argv";
+        icloud.body = ''
+          cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/ $argv;
+        '';
 
         noproxy.description = "Clear all proxy environment variables";
         noproxy.body = ''

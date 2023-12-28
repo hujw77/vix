@@ -55,7 +55,6 @@
         git
         gh
         jq # query json
-        neovim
       ];
 
     };
